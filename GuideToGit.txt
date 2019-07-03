@@ -7,8 +7,11 @@ initial setup
 3. git init 							: initialize your current directory as a local git repository
 4. git remote add origin https://github.com/chaeunl/VCAM.git 	: enroll the origin as https://~ 
 								  if you wanna check the connection, then #git remote -v
+[ref] https://nolboo.kim/blog/2013/10/06/github-for-beginner/
+[ref] https://rogerdudler.github.io/git-guide/index.ko.html
+
 update your revised file on GitHub repository through master (or barch named as br in this case)
-0. git checkout -b br						: turn to the branch br or create a new branch br if not existed.
+0. git checkout -b br						: create a new branch br if not existed (if you want to switch to the existing branch, then command git checkout br).
 								  you may skip this step if you want to access through master
 1. git add filename 						: make the file tracked
 2. git commit -m "filename" 					: update the current status for local repository 
@@ -24,6 +27,7 @@ when you want to confirm your local git status,
 when you want to delete a branch,
 1. git branch -rd origin/brachname				: delte local remote-tracking branch
 2. git push origin --delete branchname				: delte actual remote brach
+[ref] https://stackoverflow.com/questions/2003505/how-do-i-delete-a-git-branch-locally-and-remotely
 
 -------- notes on Git -------
 origin: https://github.com/chaeunl/VCAM.git
