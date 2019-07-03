@@ -11,6 +11,11 @@
 # git push origin master
 git push complted
 
+when you update your files,
+1. git status : confirm that the files are matched with the files in GitHub reposiory or not
+2. git add filename :
+3. git commit -m "filename" : 
+
 -------
 origin: https://github.com/chaeunl/VCAM.git
 master: ?
