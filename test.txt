@@ -1,2 +1,16 @@
 
-test for git share
+
+# git config --global user.name "chaeunl"
+# git config --global user.email "chaeunl@dal.snu.ac.kr"
+# git init : initialize your current directory as a local git repository
+# git add filename : make the file tracked
+# git commit -m "filename" : 
+# git remote add origin https://github.com/chaeunl/VCAM.git : enroll the origin as https://~ 
+							      if you wanna check the connection, then #git remote -v
+# git pull --rebase origin master
+# git push origin master
+git push complted
+
+-------
+origin: https://github.com/chaeunl/VCAM.git
+master: ?
